@@ -1,0 +1,360 @@
+// Inter font style
+  @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+  /* 
+=====
+sass styling
+=====
+*/
+$primary-color: #1d1d1d;
+$secondary-color: #ffffff;
+$trim-color:#d3d3d3;
+$border-radius: 8px;
+$margin: 20px;
+$archivo: 'Archivo', sans-serif;
+$inter: 'Inter', sans-serif;
+/* 
+=====
+sass styling
+=====
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0px;
+  background: $primary-color;
+}
+
+Nav {
+  font-family: $inter;
+}
+
+::-moz-selection {
+  color: $secondary-color;
+  background: #2cba6c;
+}
+::selection {
+  color: $secondary-color;
+  background: #2cba6c;
+}
+.bg-white {
+  background-color: transparent !important;
+}
+
+//Navbar
+header nav {
+  background: $primary-color;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  position: sticky;
+  top: 0px;
+  z-index: 10;
+  line-height: 80px;
+}
+ul a {
+  color: white;
+  align-items: center;
+  position: relative;
+  text-decoration: none;
+//   padding: 20px;
+  margin: 30px;
+  height: 100%;
+  cursor: pointer;
+  margin-top: 0px;
+}
+ul a:hover {
+    color: #ffffff;
+  }
+ul a::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+  }
+ul a:hover::before {
+    transform: scaleX(1);
+  }
+.logo a {
+  justify-self: flex-start;
+  cursor: pointer;
+  display: flex;
+  align-items: left;
+  padding: 0 !important;
+}
+.logo a:hover {
+  background: none;
+  color: none;
+  text-decoration: none !important;
+}
+.crest { 
+  margin: 20px;
+  height: 40px;
+}
+.arrowIcon {
+  display: none;
+  color: $trim-color;
+  width: 100%;
+  margin: -45px;
+}
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  z-index: 1;
+  width: 100%;
+  padding: 0 24px;
+  max-width: 1110px;
+}
+nav .burgerMenu {
+  display: none;
+  position: absolute;
+  top: 2rem;
+  right: 0.75rem;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 2.25rem;
+  height: 1.7rem;
+  z-index: 1;
+}
+nav .burgerMenu span:nth-child(1), span:nth-child(2), span:nth-child(3) {
+  height: 0.2rem;
+  width: 100%;
+  background-color: white;
+  border-radius: 0.2rem;
+}
+nav .burgerMenu span:nth-child(2) {
+  height: 0.2rem;
+  width: 60%;
+}
+nav .burgerMenu span:nth-child(3) {
+  height: 0.2rem;
+  width: 30%;
+}
+nav ul.open {
+  display: flex;
+  background: $primary-color;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .sm\:grid-cols-12 {
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  }
+.top-\[calc\(100\%-13rem\)\] {
+  top: calc(100% - 47rem) !important;
+}
+}
+
+@media screen and (max-width: 950px) {
+  body {
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+  .navContainer {
+    padding: 0px 70px;
+}
+  .sm\:grid-cols-12 {
+  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+}
+  .sm\:top-\[calc\(10\%-3rem\)\] {
+  top: calc(10% - -26rem) !important;
+}
+  .sm\:w-\[47\.1875rem\] {
+  width: 69.1875rem !important;
+}
+.sm\:left-\[calc\(50\%\+34rem\)\] {
+  left: calc(50% + 21rem) !important;
+}
+}
+
+@media screen and (max-width: 850px) {
+  nav .burgerMenu {
+    display: flex;
+    right: 4rem;
+  }
+  nav {
+    flex-direction: column;
+    align-items: start;
+  }
+  .navContainer {
+    padding: 0;
+    display: block;
+  }
+  ul a {
+    color: white;
+    align-items: center;
+    position: relative;
+    text-decoration: none;
+    padding: 10px;
+    margin: 30px auto;
+    height: 100%;
+    cursor: pointer;
+    margin-top: 0px;
+    width: 50%;
+  }
+  ul a:hover {
+      color: $primary-color;
+      background: #ffffff;
+    }
+  ul a:hover::before {
+      transform: none;
+    }
+  nav ul {
+    display: none;
+    flex-direction: column;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 100px);
+    width: 100%;
+    margin-bottom: 0.25rem;
+  }
+  nav ul.open {
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    z-index: 0;
+    text-align: center;
+  }
+  nav ul a {
+    margin-top: 10rem;
+    font-size: 2rem;
+  }
+  .logo {margin-left: 4rem;}
+  .arrowIcon {
+    display: flex;
+    color: $trim-color;
+    width: 200%;
+    margin: -60px;
+  }
+  .sm\:py-10 {
+    padding-top: 5.5rem !important;
+    padding-bottom: 5.5rem !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .top-\[calc\(100\%-13rem\)\] {
+    top: calc(100% - 58rem) !important;
+}
+}
+
+@media screen and (max-width: 750px) {
+  nav ul a {
+    margin-top: 2rem;
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  body {
+    overflow-y:visible;
+   }
+  .sm\:py-10 {
+    padding-top: 5.5rem !important;
+    padding-bottom: 5.5rem !important;
+  }
+  .px-6 {
+    padding-left: 3.5rem !important;
+    padding-right: 3.5rem !important;
+}
+}
+
+@media screen and (max-width: 600px) {
+  nav ul a {
+    font-size: 2rem;
+    margin-top: 5rem;
+}
+   nav ul {
+    grid-template-rows: repeat(6, 106px);
+  }
+  .sm\:py-10 {
+    padding-top: 1.5rem !important;
+    padding-bottom: 5.5rem !important;
+  }
+  .sm\:left-\[calc\(50\%\+34rem\)\] {
+    left: calc(50% + 39rem) !important;
+}
+  .sm\:top-\[calc\(10\%-3rem\)\] {
+    top: calc(1% + -16rem) !important;
+  }
+}
+
+@media screen and (max-width: 500px) { 
+.logo {
+    margin-left: 2rem;
+}
+nav .burgerMenu {
+    right: 2rem;
+}
+nav ul.open {
+    margin-top: 0em;
+}
+nav ul a {
+  margin-top: 5rem;
+}
+.sm\:left-\[calc\(50\%\+34rem\)\] {
+  left: calc(50% + 21rem) !important;
+}
+.top-\[calc\(100\%-13rem\)\] {
+  top: calc(100% - 60rem) !important;
+}
+}
+
+@media screen and (max-width: 400px) {
+nav ul.open {
+    margin-top: 0em;
+}
+nav ul a {
+  margin-top: 3rem;
+}
+.landing-heading, .landing-sub-heading {
+  font-size: 2rem !important;
+}
+.pt-14 {
+  padding-top: 1.5rem !important;
+  padding-bottom: -3.5rem !important;
+}
+.px-6 {
+  padding-left: 2.5rem !important;
+  padding-right: 2.5rem !important;
+}
+.blur-3xl {
+  display: none;
+}
+}
+  
+
+
+// Landing
+.landing-body {
+  width: 60%;
+  margin: 5px auto;
+}
+.landing-heading, .landing-sub-heading {
+  font-family: $archivo;
+  color: $secondary-color;
+  font-size: 2.5rem;
+}
+.lg\:mx-3 {
+  margin-left: 21.75rem !important;
+  margin-right: 21.75rem !important;
+}
+.max-w-lg {
+  max-width: 20rem !important;
+}
