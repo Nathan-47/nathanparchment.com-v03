@@ -1,5 +1,6 @@
 # Portfolio v.03
 
+## Mini Updates
 `Site still being built`
-<br />
-`! about page completed, now building projects page`
+<br /><br />
+`About page completed, now building projects page`
