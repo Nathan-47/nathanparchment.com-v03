@@ -1,7 +1,4 @@
 import image1 from '../images/nathan_img_3.jpg';
-import image2 from '../images/nathan_img_4.jpg';
-
-import github from '../images/github.svg';
 import arrow from '../images/arrow-right.png';
 
 import {stagger, useAnimate, usePresence } from "framer-motion";
