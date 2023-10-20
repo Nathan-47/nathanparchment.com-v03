@@ -36,6 +36,9 @@ body {
 Nav {
   font-family: $inter;
 }
+.a-link {
+  background: #2cba6c;
+}
 
 ::-moz-selection {
   color: $secondary-color;
@@ -47,6 +50,10 @@ Nav {
 }
 .bg-white {
   background-color: transparent !important;
+}
+.width-body {
+  width: 60%;
+  margin: 30px auto;
 }
 
 //Navbar
@@ -357,4 +364,56 @@ nav ul a {
 }
 .max-w-lg {
   max-width: 20rem !important;
+}
+
+
+// About
+.about-heading{
+  font-family: $archivo;
+  color: $secondary-color;
+  font-size: 2rem;
+  text-transform: uppercase;
+  padding: 15px;
+  margin: 20px auto;
+}
+.sm\:py-10 {
+  padding-bottom: 6.5rem !important;
+}
+.imageme {
+  margin-left: 15em !important;
+  border-radius: 8px;
+}
+.imagemiddle {
+  margin-left: 0em;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+.imageright {
+  position: relative;
+  margin-right: 20em;
+  border-radius: 8px;
+}
+#text-about {
+  color: white;
+  width: 60%;
+  margin: 30px auto;
+  font-family: $inter;
+}
+
+@media screen and (max-width: 1024px) {
+body {overflow-y: auto;}
+#text-about {width: 100%;}
+}
+
+@media screen and (max-width: 720px) {
+.width-body {width: 70%;}
+.sm\:py-10 {
+  padding-top: 2.5rem !important;
+  padding-bottom: 4rem !important;
+}
+}
+
+@media screen and (max-width: 500px) {
+.width-body {width: 90%;}
+#text-about {width: 90%;}
 }
