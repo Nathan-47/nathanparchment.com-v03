@@ -16,8 +16,8 @@ useEffect (() => {
       const enterAnimation = async () => {
       await animate(
         scope.current,
-        { opacity: [0, 3]},
-        { duration: 0.9, delay: stagger(0.7, {ease: "easeInOut"})},
+        { opacity: [0, 6]},
+        { duration: 0.9, delay: stagger(0.3, {ease: "easeInOut"})},
       )
     }
     enterAnimation()
