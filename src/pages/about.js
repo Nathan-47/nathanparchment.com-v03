@@ -29,7 +29,7 @@ useEffect (() => {
   }
   exitAnimation()
 }
-}, [isPresent])
+})
   // animate on view hook
 
     return (
@@ -68,7 +68,7 @@ useEffect (() => {
       <div className="mx-auto grid max-w-3xl gap-x-8 gap-y-10 px-6 lg:px-8 xl:grid-cols-3">
         {/* <div className="max-w-2xl">
         </div> */}
-        <ul role="list" className="grid gap-x-8 gap-y-12 sm:grid-cols-3 sm:gap-y-16 xl:col-span-3">
+        <ul id="list" className="grid gap-x-8 gap-y-12 sm:grid-cols-3 sm:gap-y-16 xl:col-span-3">
             <li>
               <div className="flex items-center gap-x-3">
                 <img className="h-8 w-8 rounded-full" src={arrow} alt="" />
