@@ -10,10 +10,13 @@ sass styling
 $primary-color: #1d1d1d;
 $secondary-color: #ffffff;
 $trim-color:#d3d3d3;
+$hyperlink-color: #2cba6c;
 $border-radius: 8px;
 $margin: 20px;
 $archivo: 'Archivo', sans-serif;
 $inter: 'Inter', sans-serif;
+$padding: 15px;
+$heading-bold: 1.3rem;
 /* 
 =====
 sass styling
@@ -421,4 +424,151 @@ body {overflow-y: auto;}
 @media screen and (max-width: 500px) {
 .width-body {width: 90%;}
 #text-about {width: 90%;}
+}
+
+
+//Projects
+.col-3 {
+  width: 24.333%;
+  display: inline-flex;
+  padding: $padding;
+}
+.card {
+  background-color: $secondary-color;
+  color: #1d1d1b;
+  border-radius: 8px;
+  max-height: 500px;
+  border: 0.5px solid #ffffff;
+}
+.card-image img {
+  width: 100%;
+  height: auto;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.card-content {
+  color: $primary-color;
+  padding: 30px;
+}
+.card:hover {
+  /* border: 3px solid #2EE59D; */
+  box-shadow: -6px 6px #2EE59D;
+  /* box-shadow: -5px 5px 5px; for glowing hover */
+  color: none;
+  transform: translateY(-7px);
+  transition: 0.3s;
+}
+#card-title {
+  font-family: 'Archivo', sans-serif;
+  font-size: $heading-bold;
+  text-transform: uppercase;
+}
+.view-btn {
+  font-weight: 700;
+  font-family: $archivo;
+  background-color: $hyperlink-color;
+  color: $secondary-color;
+  padding: 3px;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1610px) {
+  .col-3 {
+    width: 25%;
+    display: inline-flex;
+    padding: 8px;
+}
+}
+
+@media screen and (max-width: 1550px) {
+  .width-body {width: 80%;}
+}
+
+@media screen and (max-width: 1230px) {
+  .width-body {width: 80%;}
+  .col-3 {
+    width: 25%;
+    padding: 7px;}
+}
+
+@media screen and (max-width: 1150px) {
+  .col-3 {
+    width: 33.333%;
+    padding: 10px;
+}
+}
+
+@media screen and (max-width: 1024px) {
+  .col-3 {
+    width: 50%;
+    display: inline-flex;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .col-3 {
+    width: 49%;
+    display: inline-block;
+    padding: 6px;
+}
+}
+
+@media screen and (max-width: 500px) {
+  .col-3 {
+    width: 100%;
+}
+}
+
+
+// Projects Pages
+.project-body {
+  width: 70%;
+  margin: auto;
+  margin-top: 80px;
+}
+.project-heading{
+  font-family: $archivo;
+  color: $secondary-color;
+  text-align: center;
+  font-size: 3rem;
+  text-transform: uppercase;
+  padding: 15px;
+  margin: 20px auto;
+}
+.project-content {
+  color: $secondary-color;
+  font-size: 1.1rem;
+}
+#demo-btn {
+  text-align: center;
+  font-family: $archivo;
+  font-weight: 700;
+  font-size: 1.6rem;
+  width: 300px;
+  height: 60px;
+  cursor: pointer;
+}
+.github-logo {
+  width: 50px;
+  margin: auto;
+  margin-top: 8em;
+  margin-bottom: 2em;
+}
+.tool-section {
+  text-align: center;
+}
+#tool-tags {
+  margin: 10px;
+}
+
+@media screen and (max-width: 1400px) and (min-width: 1024px) {
+  #demo-btn {
+    width: 220px;
+}
+}
+
+@media screen and (max-width: 600px) {
+  .project-body {
+    width: 100%;
+  }
 }
