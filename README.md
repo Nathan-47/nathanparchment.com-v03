@@ -3,4 +3,4 @@
 ## Mini Updates
 `Site building in progress`
 <br /><br />
-`About page completed, now building projects page`
+`Contact page is currently being built`
