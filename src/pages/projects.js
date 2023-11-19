@@ -41,7 +41,7 @@ useEffect (() => {
             </div>
             <div className="row content-center">
                 <div className="col-3">
-                    <a href=""><div className="card" aria-label="Birmingham Impact Football Club project card">
+                    <a href="/marvelapi"><div className="card" aria-label="Birmingham Impact Football Club project card">
                        
                        <div className="card-image">
                                 <img src={card1} alt="Birmingham Impact landing page screenshot"></img>
@@ -51,7 +51,7 @@ useEffect (() => {
                             <p id="card-title">Birmingham Impact Footbal Club</p>
                             <p>A responsive demo football site created for my local football team Birmingham Impact Football Club.</p>
                             <br />
-                            <a class="view-btn" href="">View Project</a>
+                            <a class="view-btn" href="/marvelapi">View Project</a>
                         </div>
                     </div></a>
                 </div>
@@ -75,7 +75,7 @@ useEffect (() => {
 {/* end of card */}
 
 <div className="col-3">
-                    <a href=""><div className="card">
+                    <a href="/marvelapi"><div className="card">
                             <div className="card-image">
                                 <img src={card3}></img>
                             </div>
@@ -84,14 +84,14 @@ useEffect (() => {
                             <p id="card-title">Portfolio v.02</p>
                             <p>The aim of my portfolio is to display all my projects built over the years whilst being more clearer than my last portfolio for users.</p>
                             <br />
-                            <a class="view-btn" href="">View Project</a>
+                            <a class="view-btn" href="/marvelapi">View Project</a>
                         </div>
                     </div></a>
                 </div>
 {/* end of card */}
 
 <div className="col-3">
-                    <a href=""><div className="card">
+                    <a href="/marvelapi"><div className="card">
                             <div className="card-image">
                                 <img src={card4}></img>
                             </div>
@@ -100,7 +100,7 @@ useEffect (() => {
                             <p id="card-title">Clipped It</p>
                             <p>The main focus of this project was to create a login system that works and alerts or backs users out when input fields are wrongly filled in. </p>
                             <br />
-                            <a class="view-btn" href="">View Project</a>
+                            <a class="view-btn" href="/marvelapi">View Project</a>
                         </div>
                     </div></a>
                 </div>
