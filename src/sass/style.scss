@@ -514,9 +514,7 @@ body {overflow-y: auto;}
 }
 
 @media screen and (max-width: 500px) {
-  .col-3 {
-    width: 100%;
-}
+  .col-3 {width: 100%;}
 }
 
 
@@ -549,7 +547,7 @@ body {overflow-y: auto;}
   cursor: pointer;
 }
 .github-logo {
-  width: 50px;
+  width: 45px;
   margin: auto;
   margin-top: 8em;
   margin-bottom: 2em;
@@ -560,15 +558,68 @@ body {overflow-y: auto;}
 #tool-tags {
   margin: 10px;
 }
+#screenshots {
+  margin-top: 50px;
+}
 
 @media screen and (max-width: 1400px) and (min-width: 1024px) {
-  #demo-btn {
-    width: 220px;
+  .project-body {
+    width: 80%;
+    margin: auto;
+    margin-top: 80px;
 }
+  #demo-btn {width: 220px;}
+}
+
+@media screen and (max-width: 1023px) {
+  #demo-btn {margin: 0px 100px auto;}
+}
+
+@media screen and (max-width: 900px) {
+  #demo-btn {
+    margin: 0px 100px auto;
+    width: 350px;
+}
+ .project-body {width: 80%;}
+}
+
+@media screen and (max-width: 768px) {
+  #demo-btn {margin: 0px 60px auto;}
 }
 
 @media screen and (max-width: 600px) {
+  #demo-btn {margin: 0px 40px auto;}
   .project-body {
     width: 100%;
   }
+}
+
+@media screen and (max-width: 500px) {
+  .project-body {width: 100%;}
+  #demo-btn {margin: 0px -10px auto;}
+}
+
+@media screen and (max-width: 480px) {
+  .tool-section {
+    width: 100%;
+    margin: auto;
+}
+  #demo-btn {
+    margin: 0px 15px auto;
+    width: 350px;
+}
+}
+
+@media screen and (max-width: 420px) {
+  #demo-btn {
+    margin: 0px 10px auto;
+    width: 300px;
+}
+}
+
+@media screen and (max-width: 400px) {
+  #demo-btn {
+    margin: 0px auto;
+    width: 300px;
+}
 }
