@@ -1,5 +1,6 @@
 import {stagger, useAnimate, usePresence } from "framer-motion";
 import { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 import card1 from '../images/bhamimpact_thumbnail.png';
 import card2 from '../images/marvelapi_thumbnail.png';
@@ -58,7 +59,7 @@ useEffect (() => {
 {/* end of card */}
 
 <div className="col-3">
-                    <a href="/marvelapi"><div className="card">
+                    <Link to="/marvelapi"><div className="card">
 
                             <div className="card-image">
                                 <img src={card2} alt="marvel api project"></img>
@@ -70,7 +71,7 @@ useEffect (() => {
                             <br />
                             <a class="view-btn" href="/marvelapi">View Project</a>
                         </div>
-                    </div></a>
+                    </div></Link>
                 </div>
 {/* end of card */}
 
