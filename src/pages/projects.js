@@ -44,7 +44,7 @@ useEffect (() => {
                     <a href="/marvelapi"><div className="card" aria-label="Birmingham Impact Football Club project card">
                        
                        <div className="card-image">
-                                <img src={card1} alt="Birmingham Impact landing page screenshot"></img>
+                                <img src={card1} alt="Birmingham Impact project"></img>
                             </div>
 
                         <div className="card-content">
@@ -61,7 +61,7 @@ useEffect (() => {
                     <a href="/marvelapi"><div className="card">
 
                             <div className="card-image">
-                                <img src={card2}></img>
+                                <img src={card2} alt="marvel api project"></img>
                             </div>
 
                         <div className="card-content">
@@ -77,7 +77,7 @@ useEffect (() => {
 <div className="col-3">
                     <a href="/marvelapi"><div className="card">
                             <div className="card-image">
-                                <img src={card3}></img>
+                                <img src={card3} alt="portfolio v.02 project"></img>
                             </div>
 
                         <div className="card-content">
@@ -93,7 +93,7 @@ useEffect (() => {
 <div className="col-3">
                     <a href="/marvelapi"><div className="card">
                             <div className="card-image">
-                                <img src={card4}></img>
+                                <img src={card4} alt="clippedit project"></img>
                             </div>
 
                         <div className="card-content">
