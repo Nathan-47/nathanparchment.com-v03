@@ -7,6 +7,8 @@ import About from './pages/about.js';
 import Projects from './pages/projects';
 import Contact from './pages/contact';
 import Marvelapi from './pages/marvelapi.js';
+import NotExist from './NotExist.js';
+
 
 function App() {
 
@@ -22,7 +24,7 @@ function App() {
       <Route path="marvelapi" element={<Marvelapi/>} />
       
       {/* 404 page link */}
-      {/* <Route path="*" element={<NotExist />} /> */}
+      <Route path="*" element={<NotExist />} />
       </Route>
     )
   )
