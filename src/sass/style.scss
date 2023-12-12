@@ -623,3 +623,89 @@ body {overflow-y: auto;}
     width: 300px;
 }
 }
+
+
+// Contact
+#contact-content {
+  width: 70%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 10em;
+  color: $secondary-color;
+  font-size: 1.1rem;
+}
+.hr-lines:before{
+  content:" ";
+  display: block;
+  height: 2px;
+  width: 200px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  background: $secondary-color;
+}
+.hr-lines{
+  position: relative;
+  max-width: 650px;
+  margin: 70px auto;
+  text-align: center;
+  color: $secondary-color;
+}
+
+
+@media screen and (max-width: 4000px) {
+  #contact-content {width: 40%;}
+}
+
+@media screen and (max-width: 2300px) {
+  #contact-content {
+    width: 40%;
+  }
+  .hr-lines:before{
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 1900px) {
+  #contact-content {
+    width: 50%;
+  }
+  .hr-lines:before{
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  #contact-content {width: 60%;}
+}
+
+@media screen and (max-width: 950px) {
+  #contact-content {width: 70%;}
+}
+
+@media screen and (max-width: 850px) {
+  #contact-content {width: 80%;}
+}
+
+@media screen and (max-width: 720px) {
+  .hr-lines:before{width: 100px;}
+}
+
+@media screen and (max-width: 540px) {
+  .hr-lines:before{width: 70px;}
+}
+
+@media screen and (max-width: 440px) {
+  #contact-content {
+    width: 100%;
+}
+.hr-lines:before{
+    width: 85px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .hr-lines:before{width: 60px;}
+}
+
+
