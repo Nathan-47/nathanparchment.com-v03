@@ -2,7 +2,7 @@ import {stagger, useAnimate, usePresence } from "framer-motion";
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
-import card1 from '../images/bhamimpact_thumbnail.png';
+// import card1 from '../images/bhamimpact_thumbnail.png';
 import card2 from '../images/marvelapi_thumbnail.png';
 import card3 from '../images/portfolio.v02_thumbnail.png';
 import card4 from '../images/clippedit-thumbnail.png';
