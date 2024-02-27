@@ -43,7 +43,7 @@ const Landing = () => {
 
         <div className="grid grid-cols-1 gap-4 my-20">
           <p className="hero-intro-feature">Featured Project</p>
-          <img className="feature-image" src={card1}></img>
+          <img className="feature-image" alt="marvel thumbnail" src={card1}></img>
 
           <p className="feature-caption text-zinc-400">Birmingham Impact Football Club</p>
           <p className="feature-bio text-zinc-400">A newer modern site for a grass roots football club</p>
