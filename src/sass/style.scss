@@ -41,6 +41,8 @@ Nav {
 }
 .a-link {
   background: #2cba6c;
+  font-weight: 800;
+  color: white;
 }
 
 ::-moz-selection {
@@ -53,6 +55,8 @@ Nav {
 }
 .bg-white {
   background-color: transparent !important;
+  width: 35%;
+  margin: auto;
 }
 .width-body {
   width: 60%;
@@ -356,17 +360,83 @@ nav ul a {
   width: 60%;
   margin: 5px auto;
 }
-.landing-heading, .landing-sub-heading {
+.hero-intro {
   font-family: $archivo;
   color: $secondary-color;
-  font-size: 2.5rem;
+  font-size: 2.4rem;
 }
-.lg\:mx-3 {
-  margin-left: 21.75rem !important;
-  margin-right: 21.75rem !important;
+#hero-job {
+  font-family: $inter;
+  font-size: 1.5rem;
 }
-.max-w-lg {
-  max-width: 20rem !important;
+.hero-intro-feature {
+  font-family: $archivo;
+  color: $secondary-color;
+  font-size: 1.5rem;
+}
+.feature-image {
+  width: 100%;
+  border-radius: 35px;
+}
+.feature-caption {
+  font-family: $archivo;
+  font-style: italic;
+}
+.feature-bio {
+  font-style: italic;
+}
+.learning-heading {
+  font-family: $archivo;
+  color: $secondary-color;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.learn-box,.read-box,.game-box {
+  // border: 0.5px solid $trim-color;
+  border-radius: 50px;
+  text-align: center;
+  color: $secondary-color;
+  padding: 30px;
+  font-family: $inter;
+  box-shadow: 0px 2px 4px rgba(225, 217, 217, 0.15), 
+              0px 4px 8px rgba(66, 65, 65, 0.15), 
+              0px 8px 16px rgba(0,0,0,0.15), 
+              2px 4px 0px rgba(167, 164, 164, 0.15)             
+
+}
+.work-icon {
+  width: 40px;
+  margin: 15px auto;
+}
+
+@media screen and (max-width: 1800px) {
+.bg-white {width: 40% !important;}
+}
+
+@media screen and (max-width: 1650px) {
+.bg-white {width: 45% !important;}
+}
+
+@media screen and (max-width: 1550px) {
+.bg-white {width: 50% !important;}
+}
+
+@media screen and (max-width: 1340px) {
+  .bg-white {width: 60% !important;}
+}
+
+@media screen and (max-width: 1024px) {
+  .bg-white {width: 65% !important;}
+}
+
+@media screen and (max-width: 850px) {
+  .bg-white {width: 70% !important;}
+}
+
+@media screen and (max-width: 600px) {
+  .grid-cols-3 {
+    grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+}
 }
 
 
