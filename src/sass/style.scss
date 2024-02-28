@@ -307,6 +307,9 @@ nav ul.open {
   .sm\:top-\[calc\(10\%-3rem\)\] {
     top: calc(1% + -16rem) !important;
   }
+.feature-image {
+    border-radius: 15px !important;
+}
 }
 
 @media screen and (max-width: 500px) { 
