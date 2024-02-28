@@ -434,7 +434,8 @@ nav ul a {
 }
 
 @media screen and (max-width: 600px) {
-  .grid-cols-3 {
+.hero-intro {font-size: 1.8rem;}
+.grid-cols-3 {
     grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
 }
 }
