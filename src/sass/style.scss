@@ -363,6 +363,9 @@ nav ul a {
   width: 60%;
   margin: 5px auto;
 }
+.my-20 {
+  margin-bottom: 8rem ;
+}
 .hero-intro {
   font-family: $archivo;
   color: $secondary-color;
@@ -370,11 +373,6 @@ nav ul a {
 }
 #hero-job {
   font-family: $inter;
-  font-size: 1.5rem;
-}
-.hero-intro-feature {
-  font-family: $archivo;
-  color: $secondary-color;
   font-size: 1.5rem;
 }
 .feature-image {
@@ -430,17 +428,31 @@ nav ul a {
 
 @media screen and (max-width: 1024px) {
   .bg-white {width: 65% !important;}
+  .my-20 {
+    margin-top: 3rem !important;
+    margin-bottom: 6em !important;
+  }
+  .my-10 {margin-top: 1rem !important;}
+  .mt-20 {margin-top: 8rem !important;}
 }
 
 @media screen and (max-width: 850px) {
   .bg-white {width: 70% !important;}
+  .learning-heading {font-size: 1.3rem;}
 }
 
 @media screen and (max-width: 600px) {
-.hero-intro {font-size: 1.8rem;}
-.grid-cols-3 {
+  .hero-intro {font-size: 1.8rem;}
+  #hero-job {font-size: 1.2rem;}
+  .grid-cols-3 {
     grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
 }
+  .my-20 {margin-top: 4rem !important;}
+}
+
+@media screen and (max-width: 500px) {
+  .bg-white {width: 80% !important;}
+  .my-20 {margin-top: 3rem !important;}
 }
 
 
