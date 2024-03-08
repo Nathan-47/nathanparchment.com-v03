@@ -1,4 +1,5 @@
 import card1 from '../images/marvelapi_thumbnail.png';
+import { Link } from 'react-router-dom';
 
 
 const Landing = () => {
@@ -17,10 +18,11 @@ const Landing = () => {
 
         {/* featured project section */}
         <div className="grid grid-cols-1 gap-4 my-20">
-          <img className="feature-image" alt="marvel thumbnail" src={card1}></img>
+          <Link to="/marvelapi"><img className="feature-image" alt="marvel project" src={card1}></img>
 
           <p className="feature-caption text-zinc-400">Marvel Selector</p>
           <p className="feature-bio text-zinc-400">A Marvel character search filter using Marvel API.</p>
+          </Link>
         </div>
 
         <div className="grid grid-cols-1 gap-4 mt-20">
