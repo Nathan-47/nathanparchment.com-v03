@@ -378,6 +378,12 @@ nav ul a {
 .feature-image {
   width: 100%;
   border-radius: 35px;
+  margin-bottom: 30px;
+  opacity: 0.7;
+}
+.feature-image:hover {
+  opacity: 100%;
+  transition: 0.3s;
 }
 .feature-caption {
   font-family: $archivo;
@@ -484,7 +490,7 @@ nav ul a {
 }
 #text-about {
   color: white;
-  width: 60%;
+  width: 50%;
   margin: 30px auto;
   font-family: $inter;
 }
