@@ -59,7 +59,7 @@ Nav {
   margin: auto;
 }
 .width-body {
-  width: 60%;
+  width: 60% !important;
   margin: 30px auto;
 }
 
@@ -392,7 +392,7 @@ nav ul a {
 .feature-bio {
   font-style: italic;
 }
-.learning-heading {
+.heading-two {
   font-family: $archivo;
   color: $secondary-color;
   font-size: 1.5rem;
@@ -444,7 +444,7 @@ nav ul a {
 
 @media screen and (max-width: 850px) {
   .bg-white {width: 70% !important;}
-  .learning-heading {font-size: 1.3rem;}
+  .heading-two {font-size: 1.3rem;}
 }
 
 @media screen and (max-width: 600px) {
@@ -474,29 +474,33 @@ nav ul a {
 .sm\:py-10 {
   padding-bottom: 6.5rem !important;
 }
-.imageme {
-  margin-left: 15em !important;
-  border-radius: 8px;
-}
 .imagemiddle {
   margin-left: 0em;
   margin-bottom: 20px;
   border-radius: 8px;
 }
-.imageright {
-  position: relative;
-  margin-right: 20em;
-  border-radius: 8px;
+.heading-about {
+  font-family: $archivo;
+  color: $secondary-color;
+  font-size: 1.8rem;
+  text-align: center;
+}
+.heading-about-two {
+  font-family: $archivo;
+  color: $trim-color;
+  font-size: 1.8rem;
+  text-align: center;
 }
 #text-about {
   color: white;
-  width: 50%;
+  width: 65% !important;
   margin: 30px auto;
   font-family: $inter;
+  font-size: 1rem;
+  font-size-adjust: none !important;
 }
 
 @media screen and (max-width: 1800px) {
-#text-about {width: 100%;}
 .blur-3xl {display: none !important;}
 }
 
@@ -586,9 +590,9 @@ body {overflow-y: auto;}
 }
 }
 
-@media screen and (max-width: 1550px) {
-  .width-body {width: 80%;}
-}
+// @media screen and (max-width: 1550px) {
+//   .width-body {width: 65%;}
+// }
 
 @media screen and (max-width: 1250px) {
   .card-body {
