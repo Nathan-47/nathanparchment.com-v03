@@ -1,4 +1,4 @@
-import image1 from '../images/nathan_img_3.jpg';
+import image1 from '../images/about_me.jpg';
 import arrow from '../images/arrow-right.png';
 
 import {stagger, useAnimate, usePresence } from "framer-motion";
@@ -16,7 +16,7 @@ useEffect (() => {
       const enterAnimation = async () => {
       await animate(
         scope.current,
-        { opacity: [0, 6]},
+        { opacity: [0, 7]},
         { duration: 0.9, delay: stagger(0.3, {ease: "easeInOut"})},
       )
     }
@@ -34,21 +34,18 @@ useEffect (() => {
 
     return (
         <div ref={scope}
-        className='width-body'>
+        className='bg-white'>
             <div className='about-heading'>
               <p>| About</p>
             </div>
             <div class="grid grid-flow-col grid-rows-1 gap--40 flex justify-evenly">
-            {/* <div>
-    <img className="imageme" src={image1} alt="" width={200} loading="lazy" />
-  </div> */}
   <div class='rotate-0'>
-    <img className="imagemiddle" src={image1} alt="" width={200} loading="lazy" />
+    <img className="imagemiddle" src={image1} alt="image of nathan" width={200} loading="lazy" />
   </div>
-  {/* <div>
-    <img className="imageright" src={image2} alt="" width={350}loading="lazy" />
-  </div> */}
       </div>
+
+      <p className="heading-about">Nathan Parchment</p>
+      <p className="heading-about-two">I code and design.</p>
 
       <p id="text-about">Hi <span>&#9995;&#127998;</span> I’m Nathan. 
       <br /><br />
@@ -61,7 +58,8 @@ useEffect (() => {
       When the coding stops, I’m either powerlifting, playing football  or chilled out playing video games.
       <br /><br />
       
-      Latest tech I’ve used recently;</p>
+      Latest tech I’ve used recently;
+      </p>
       <br />
 
       <div className="bg-white py-6 sm:py-10">
