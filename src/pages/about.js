@@ -40,7 +40,7 @@ useEffect (() => {
             </div>
             <div class="grid grid-flow-col grid-rows-1 gap--40 flex justify-evenly">
   <div class='rotate-0'>
-    <img className="imagemiddle" src={image1} alt="image of nathan" width={200} loading="lazy" />
+    <img className="imagemiddle" src={image1} alt="nathan standing looking away from camera" width={200} loading="lazy" />
   </div>
       </div>
 
