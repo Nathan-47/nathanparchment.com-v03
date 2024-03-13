@@ -26,7 +26,7 @@ const Landing = () => {
         </div>
 
         <div className="grid grid-cols-1 gap-4 mt-20">
-          <p className="learning-heading">
+          <p className="heading-two">
             When I'm not working
           </p>
           {/* featured project section */}
