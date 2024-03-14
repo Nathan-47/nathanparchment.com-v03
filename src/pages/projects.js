@@ -2,7 +2,6 @@ import {stagger, useAnimate, usePresence } from "framer-motion";
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
-// import card1 from '../images/bhamimpact_thumbnail.png';
 import card2 from '../images/marvelapi_thumbnail.png';
 import card3 from '../images/portfolio.v02_thumbnail.png';
 import card4 from '../images/clippedit-thumbnail.png';
@@ -62,9 +61,8 @@ useEffect (() => {
 <div className="col">
                     <Link to="/marvelapi"><div className="card">
 
-                            <div className="card-image">
-                                <img src={card2} alt="marvel project"></img>
-                            </div>
+                                <img className="card-image" src={card2} alt="marvel project"></img>
+                            
 
                         <div className="card-content">
                             <p id="card-title">Marvel Character Picker</p>
@@ -77,10 +75,9 @@ useEffect (() => {
 
 
 <div className="col">
-                    <Link to="#"><div className="card">
-                            <div className="card-image">
-                                <img src={card3} alt="portfolio project"></img>
-                            </div>
+                    <Link to="/marvelapi"><div className="card">
+
+                                <img className="card-image" src={card3} alt="portfolio project"></img>
 
                         <div className="card-content">
                             <p id="card-title">Portfolio v.02</p>
@@ -93,9 +90,8 @@ useEffect (() => {
 
 <div className="col">
                     <Link to="#"><div className="card">
-                            <div className="card-image">
-                                <img src={card4} alt="clippedit project"></img>
-                            </div>
+
+                                <img className="card-image" src={card4} alt="clippedit project"></img>
 
                         <div className="card-content">
                             <p id="card-title">Clipped It</p>
