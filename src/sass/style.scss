@@ -570,11 +570,20 @@ body {overflow-y: auto;}
 @media screen and (max-width: 500px) {
 .width-body {width: 90%;}
 #text-about {width: 90%;}
+.about-email {margin: 5px 5px 5px 10px;}
+}
+
+@media screen and (max-width: 400px) {
+  .heading-about, .heading-about-two {font-size: 1.6rem;}
 }
 
 @media screen and (max-width: 360px) {
 .heading-about, .heading-about-two {
-  font-size: 1.7rem;}
+  font-size: 1.5rem !important;}
+}
+
+@media screen and (max-width: 320px) {
+.bg-white {width: 90% !important;}
 }
 
 
@@ -584,7 +593,7 @@ body {overflow-y: auto;}
   margin: 0 auto;
 }
 .col-3 {
-  width: 24.333%;
+  width: 100%;
   display: inline-flex;
   padding: $padding;
 }
@@ -592,9 +601,19 @@ body {overflow-y: auto;}
   border-radius: 8px;
   max-width: 100%;
   display: flex;
+  opacity: 0.3;
+  margin: 15px auto;
 }
-.card-image img {
-  width: 100%;
+.card:hover {
+  /* border: 3px solid #2EE59D; */
+  // box-shadow: -5px 5px 5px 2px $secondary-color;
+  // background-color: #2EE59D;
+  transform: translateY(-7px);
+  transition: 0.3s;
+  opacity: 100%;
+}
+.card-image {
+  width: 50%;
   height: auto;
   border-radius: 40px;
   padding: 30px;
@@ -603,13 +622,7 @@ body {overflow-y: auto;}
   color: $secondary-color;
   padding: 30px;
 }
-.card:hover {
-  /* border: 3px solid #2EE59D; */
-  /* box-shadow: -5px 5px 5px; for glowing hover */
-  background-color: #2EE59D;
-  transform: translateY(-7px);
-  transition: 0.3s;
-}
+
 #card-title {
   font-family: 'Archivo', sans-serif;
   font-size: 1.4rem;
@@ -638,10 +651,17 @@ body {overflow-y: auto;}
 }
 
 @media screen and (max-width: 1610px) {
-  .col-3 {
+.col-3 {
     width: 25%;
     display: inline-flex;
     padding: 8px;
+}
+.width-body {
+  width: 70% !important;
+}
+.card-image {
+  width: 50%;
+  height: auto;
 }
 }
 
@@ -683,7 +703,10 @@ body {overflow-y: auto;}
 }
 
 @media screen and (max-width: 1024px) {
-  .col-3 {
+.width-body {
+    width: 80% !important;
+}
+.col-3 {
     width: 50%;
     display: inline-flex;
   }
@@ -699,15 +722,15 @@ body {overflow-y: auto;}
 }
   
   @media screen and (max-width: 850px) {
-    .card {
-      display: grid;
-    }
-    .card-body {
-      width: 80% !important;
-    }
-    .card-image img {
-      border-radius: 15px;
-      padding: 5px;
+  .card {
+    display: grid;
+  }
+  .card-body {
+    width: 80% !important;
+  }
+  .card-image img {
+    border-radius: 15px;
+    padding: 5px;
   }
   #card-title {
     margin-bottom: 10px;
