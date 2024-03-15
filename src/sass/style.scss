@@ -467,7 +467,7 @@ nav ul a {
 
 
 // About
-.about-heading{
+.about-heading {
   font-family: $archivo;
   color: $secondary-color;
   font-size: 2rem;
@@ -592,6 +592,15 @@ body {overflow-y: auto;}
   width: 50% !important;
   margin: 0 auto;
 }
+.project-heading{
+  font-family: $archivo;
+  color: $secondary-color;
+  font-size: 2rem;
+  text-transform: uppercase;
+  padding: 15px;
+  margin: 20px auto;
+  margin-left: 8em;
+}
 .col-3 {
   width: 100%;
   display: inline-flex;
@@ -648,6 +657,9 @@ body {overflow-y: auto;}
   .card-body {
     width: 70% !important;
   }
+  .project-heading{
+    margin-left: 4em;
+  }
 }
 
 @media screen and (max-width: 1610px) {
@@ -680,6 +692,9 @@ body {overflow-y: auto;}
   .col-3 {
     width: 25%;
     padding: 7px;
+  }
+  .project-heading{
+    margin-left: 2em;
   }
 }
 
@@ -723,10 +738,16 @@ body {overflow-y: auto;}
   
   @media screen and (max-width: 850px) {
   .card {
-    display: grid;
+    display: inline-flex;
+  }
+  .width-body {
+    width: 100% !important;
   }
   .card-body {
     width: 80% !important;
+  }
+  .project-heading {
+    margin-left: 3em;
   }
   .card-image img {
     border-radius: 15px;
@@ -738,19 +759,42 @@ body {overflow-y: auto;}
   .card-content {
     padding: 5px;
     margin-top: 20px;
-}
+  }
   }
 
 @media screen and (max-width: 600px) {
-  .col-3 {
+.col-3 {
     width: 49%;
     display: inline-block;
     padding: 6px;
 }
+.project-heading {
+  margin-left: 2em;
+}
+.card {
+  display: inline-block;
+}
+.card-image {
+  width: 100%;
+  padding: 10px;
+}
+.card-content {
+  margin-top: 5px;
+  padding: 20px;
+}
+#card-title {
+  font-size: 1.2rem;
+}
 }
 
 @media screen and (max-width: 500px) {
-  .col-3 {width: 100%;}
+.col-3 {width: 100%;}
+.project-heading {
+  margin-left: 1em;
+}
+.card-body {
+  width: 90% !important;
+}
 }
 
 
@@ -759,15 +803,6 @@ body {overflow-y: auto;}
   width: 70%;
   margin: auto;
   margin-top: 80px;
-}
-.project-heading{
-  font-family: $archivo;
-  color: $secondary-color;
-  text-align: center;
-  font-size: 3rem;
-  text-transform: uppercase;
-  padding: 15px;
-  margin: 20px auto;
 }
 .project-content {
   color: $secondary-color;
