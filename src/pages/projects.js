@@ -36,7 +36,7 @@ useEffect (() => {
     return (
         <div ref={scope}
         className='width-body'>
-            <div className='about-heading'>
+            <div className='project-heading'>
               <p>| Projects</p>
             </div>
                 {/* <div className="col-3">
