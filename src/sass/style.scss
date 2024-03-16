@@ -808,6 +808,18 @@ body {overflow-y: auto;}
   color: $secondary-color;
   font-size: 1.1rem;
 }
+.project-heading-default{
+  font-family: $archivo;
+  color: $secondary-color;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  padding: 15px;
+  margin: 20px auto;
+  text-align: center;
+}
+.gap-12 {
+  gap: 1rem !important;
+}
 #demo-btn {
   text-align: center;
   font-family: $archivo;
@@ -833,13 +845,25 @@ body {overflow-y: auto;}
   margin-top: 50px;
 }
 
+@media screen and (max-width: 1740px) {
+.gap-12 {
+    gap: 0rem !important;
+}
+}
+
+@media screen and (max-width: 1500px) {
+.gap-12 {
+    gap: 0rem !important;
+}
+}
+
 @media screen and (max-width: 1400px) and (min-width: 1024px) {
   .project-body {
-    width: 80%;
+    width: 100%;
     margin: auto;
     margin-top: 80px;
 }
-  #demo-btn {width: 220px;}
+  #demo-btn {width: 260px;}
 }
 
 @media screen and (max-width: 1023px) {
