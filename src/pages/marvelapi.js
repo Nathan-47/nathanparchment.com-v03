@@ -34,7 +34,7 @@ useEffect (() => {
     return (
         <div ref={scope}
         className='width-body'>
-            <div className='project-heading'>
+            <div className='project-heading-default'>
               <p>Marvel Selector</p>
             </div>
             <div className="project-body">
