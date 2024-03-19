@@ -1,6 +1,8 @@
 import {stagger, useAnimate, usePresence } from "framer-motion";
 import { useEffect } from 'react';
 
+//REMOVE THIS PAGE
+
 
 const Contact = () => {
 
