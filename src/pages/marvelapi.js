@@ -6,6 +6,8 @@ import marvelshot2 from '../images/marvel/marvel_screenshot2.png';
 
 const Marvelapi = () => {
 
+// Animate on fade function when page loads 
+
      // animate on view hook
 const [isPresent, safeToRemove] = usePresence()
 const [scope, animate] = useAnimate()
