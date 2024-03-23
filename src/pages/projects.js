@@ -39,22 +39,6 @@ useEffect (() => {
             <div className='project-heading'>
               <p>| Projects</p>
             </div>
-                {/* <div className="col-3">
-                    <Link to="#"><div className="card" aria-label="Birmingham Impact Football Club project card">
-                       
-                       <div className="card-image">
-                                <img src={card1} alt="Birmingham Impact landing page screenshot"></img>
-                            </div>
-
-                        <div className="card-content">
-                            <p id="card-title">Birmingham Impact Footbal Club</p>
-                            <p>A responsive demo football site created for my local football team Birmingham Impact Football Club.</p>
-                            <br />
-                            <a class="view-btn" href="#">View Project</a>
-                        </div>
-                    </div></Link>
-                </div> */}
-{/* end of card */}
 
 <div className="card-body">
 
