@@ -58,6 +58,8 @@ useEffect (() => {
                         </p>
                 </div>
             </div>
+
+{/* github and tech stack used for project */}
             <div className="tool-section">
             <img className="github-logo" src={githubLogo} alt="github"></img>
       <div id="tool-tags" className="inline-flex items-center rounded-md bg-gray-50 px-2 py-1 text-base font-semibold text-gray-700 ring-1 ring-inset ring-gray-600/10">
@@ -80,7 +82,7 @@ useEffect (() => {
               <img src={marvelshot1} width="900px" height="300px" alt="screenshot from marvel project showing the marvel character venom"></img>
             </div>
             <div id="screenshots" className="flex justify-center">
-              <img src={marvelshot2} width="900px" height="300px" alt="screenshot from marvel project showing the marvel character venom"></img>
+              <img src={marvelshot2} width="900px" height="300px" alt="screenshot from marvel project showing the marvel character thor"></img>
             </div>
             {/* project screenshot section */}
             <br />
