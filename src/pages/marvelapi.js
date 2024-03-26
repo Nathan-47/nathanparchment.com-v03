@@ -6,8 +6,6 @@ import marvelshot2 from '../images/marvel/marvel_screenshot2.png';
 
 const Marvelapi = () => {
 
-// Animate on fade function when page loads 
-
      // animate on view hook
 const [isPresent, safeToRemove] = usePresence()
 const [scope, animate] = useAnimate()
@@ -40,7 +38,7 @@ useEffect (() => {
               <p>Marvel Selector</p>
             </div>
             <div className="project-body">
-            <div className="grid grid-cols-2 gap-12">
+            <div className="grid grid-cols-1 gap-12">
 
               {/* demo button */}
               <div className="button-section">
@@ -51,15 +49,13 @@ useEffect (() => {
                 </div>
                 {/* demo button */}
 
-                <div className="lg:col-end-7 col-span-4 sm:col-end-6 col-span-5">
-                    <p className="project-content">This project is a fully working and responsive football club website made for the Birmingham Impact Football Club that play in various leagues and tournaments across the Central Warwickshire league footballing association. 
+                <div className="col-sm-6">
+                    <p className="project-content my-8">This project is a fully working and responsive football club website made for the Birmingham Impact Football Club that play in various leagues and tournaments across the Central Warwickshire league footballing association. 
                         <br /><br />
                         As stated, before the main focus was to create a site that is usable and interactive on all devices as the old site was not. Nowadays mobile phones are being used more and more as they are more accessible thus the focus of attention being on the responsiveness of mobile /tablet devices and user experience.
                         </p>
                 </div>
             </div>
-
-{/* github and tech stack used for project */}
             <div className="tool-section">
             <img className="github-logo" src={githubLogo} alt="github"></img>
       <div id="tool-tags" className="inline-flex items-center rounded-md bg-gray-50 px-2 py-1 text-base font-semibold text-gray-700 ring-1 ring-inset ring-gray-600/10">
@@ -82,7 +78,7 @@ useEffect (() => {
               <img src={marvelshot1} width="900px" height="300px" alt="screenshot from marvel project showing the marvel character venom"></img>
             </div>
             <div id="screenshots" className="flex justify-center">
-              <img src={marvelshot2} width="900px" height="300px" alt="screenshot from marvel project showing the marvel character thor"></img>
+              <img src={marvelshot2} width="900px" height="300px" alt="screenshot from marvel project showing the marvel character venom"></img>
             </div>
             {/* project screenshot section */}
             <br />
