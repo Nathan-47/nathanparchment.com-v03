@@ -807,6 +807,8 @@ body {overflow-y: auto;}
 .project-content {
   color: $secondary-color;
   font-size: 1.1rem;
+  width: 100%;
+  margin: auto;
 }
 .project-heading-default{
   font-family: $archivo;
@@ -822,6 +824,7 @@ body {overflow-y: auto;}
 }
 #demo-btn {
   text-align: center;
+  margin: 10px auto;
   font-family: $archivo;
   font-weight: 700;
   font-size: 1.6rem;
@@ -867,15 +870,24 @@ body {overflow-y: auto;}
 }
 
 @media screen and (max-width: 1023px) {
-  #demo-btn {margin: 0px 100px auto;}
+  #demo-btn {
+    margin: 0px 140px auto;
+  }
+  .project-content {
+    margin-top: 4em;
 }
+.github-logo {
+  margin-top: 6em;
+}
+}
+
 
 @media screen and (max-width: 900px) {
   #demo-btn {
-    margin: 0px 100px auto;
+    margin: 0px 120px auto;
     width: 350px;
 }
- .project-body {width: 80%;}
+ .project-body {width: 70%;}
 }
 
 @media screen and (max-width: 768px) {
