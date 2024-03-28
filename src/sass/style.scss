@@ -835,7 +835,7 @@ body {overflow-y: auto;}
 .github-logo {
   width: 45px;
   margin: auto;
-  margin-top: 8em;
+  margin-top: 4em;
   margin-bottom: 2em;
 }
 .tool-section {
@@ -849,15 +849,11 @@ body {overflow-y: auto;}
 }
 
 @media screen and (max-width: 1740px) {
-.gap-12 {
-    gap: 0rem !important;
-}
+.gap-12 {gap: 0rem !important;}
 }
 
 @media screen and (max-width: 1500px) {
-.gap-12 {
-    gap: 0rem !important;
-}
+.gap-12 {gap: 0rem !important;}
 }
 
 @media screen and (max-width: 1400px) and (min-width: 1024px) {
@@ -866,36 +862,21 @@ body {overflow-y: auto;}
     margin: auto;
     margin-top: 80px;
 }
-  #demo-btn {width: 260px;}
 }
 
 @media screen and (max-width: 1023px) {
-  #demo-btn {
-    margin: 0px 140px auto;
-  }
-  .project-content {
-    margin-top: 4em;
+.project-content {margin-top: 4em;}
 }
-.github-logo {
-  margin-top: 6em;
-}
-}
-
 
 @media screen and (max-width: 900px) {
-  #demo-btn {
-    margin: 0px 120px auto;
-    width: 350px;
-}
- .project-body {width: 70%;}
+.project-body {width: 70%;}
 }
 
 @media screen and (max-width: 768px) {
-  #demo-btn {margin: 0px 60px auto;}
+
 }
 
 @media screen and (max-width: 600px) {
-  #demo-btn {margin: 0px 40px auto;}
   .project-body {
     width: 100%;
   }
@@ -903,7 +884,6 @@ body {overflow-y: auto;}
 
 @media screen and (max-width: 500px) {
   .project-body {width: 100%;}
-  #demo-btn {margin: 0px -10px auto;}
 }
 
 @media screen and (max-width: 480px) {
@@ -911,25 +891,16 @@ body {overflow-y: auto;}
     width: 100%;
     margin: auto;
 }
-  #demo-btn {
-    margin: 0px 15px auto;
-    width: 350px;
-}
 }
 
 @media screen and (max-width: 420px) {
-  #demo-btn {
-    margin: 0px 10px auto;
-    width: 300px;
-}
+
 }
 
 @media screen and (max-width: 400px) {
-  #demo-btn {
-    margin: 0px auto;
-    width: 300px;
+
 }
-}
+
 
 
 // Contact
