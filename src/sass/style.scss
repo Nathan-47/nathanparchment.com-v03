@@ -807,7 +807,7 @@ body {overflow-y: auto;}
 .project-content {
   color: $secondary-color;
   font-size: 1.1rem;
-  width: 100%;
+  width: 50%;
   margin: auto;
 }
 .project-heading-default{
@@ -864,26 +864,32 @@ body {overflow-y: auto;}
 }
 }
 
+//NATHAN CHANGE ALL BELOW BUT NOT THE .WIDTH BODY //
+//NATHAN CHANGE ALL BELOW BUT NOT THE .WIDTH BODY //
 @media screen and (max-width: 1023px) {
 .project-content {margin-top: 4em;}
 }
 
 @media screen and (max-width: 900px) {
-.project-body {width: 70%;}
+.project-content {width: 70%;}
 }
 
 @media screen and (max-width: 768px) {
-
+.project-content {width: 100%;}
+#screenshots {
+  margin-top: 50px;
+  width: 70%;
+  margin: 20px auto;
+}
 }
 
 @media screen and (max-width: 600px) {
-  .project-body {
-    width: 100%;
-  }
+  .project-content {width: 100%;}
+  #screenshots {width: 80%;}
 }
 
 @media screen and (max-width: 500px) {
-  .project-body {width: 100%;}
+  .project-content {width: 100%;}
 }
 
 @media screen and (max-width: 480px) {
