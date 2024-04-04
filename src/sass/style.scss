@@ -854,6 +854,7 @@ body {overflow-y: auto;}
 
 @media screen and (max-width: 1500px) {
 .gap-12 {gap: 0rem !important;}
+  .project-content {width: 70% !important;}
 }
 
 @media screen and (max-width: 1400px) and (min-width: 1024px) {
@@ -874,11 +875,11 @@ body {overflow-y: auto;}
 }
 
 @media screen and (max-width: 950px) {
-.project-content {width: 90%;}
+.project-content {width: 90%; !important}
 }
 
 @media screen and (max-width: 768px) {
-.project-content {width: 100%;}
+.project-content {width: 100%; !important}
 #screenshots {
   margin-top: 50px;
   width: 70%;
