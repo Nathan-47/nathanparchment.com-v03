@@ -1,47 +1,13 @@
-import githubLogo from '../images/github.svg'
-import linkedinLogo from '../images/linkedin.svg'
-import instagramLogo from '../images/instagram.svg'
-import { NavLink } from 'react-router-dom'
 
 const Footer = () => {
     return (
               <div className="bg-white">
                 <div className="mx-auto max-w-3xl px-12 z-100 lg:px-60">
-                  <div className="mx-auto mt-10 grid max-w-lg grid-cols-12 items-center gap-x-4 gap-y-10 
+                  <div className="mx-auto mt-10 grid max-w-lg grid-cols-12 items-center gap-x-4 gap-y-12 
                   md:gap-x-none
                   sm:max-w-x1 sm:grid-cols-12 sm:gap-x-3 
                   lg:mx-0 lg:max-w-none lg:grid-cols-3">
-                    <NavLink to="https://github.com/Nathan-47" target="_blank">
-                    <img
-                      className="col-span-4 max-h-8 w-full object-contain lg:col-span-1"
-                      src={githubLogo}
-                      alt="Transistor"
-                      width={158}
-                      height={48}
-                    />
-                    </NavLink>
-                    <NavLink to="https://www.linkedin.com/in/nathanparchment/" target="_blank">
-                    <img
-                      className="col-span-4 max-h-8 w-full object-contain lg:col-span-1"
-                      src={linkedinLogo}
-                      alt="Reform"
-                      width={158}
-                      height={48}
-                    />
-                    </NavLink>
-                    <NavLink to="https://www.instagram.com/mentparch_/" target="_blank">
-                    <img
-                      className="col-span-4 max-h-8 w-full object-contain lg:col-span-1"
-                      src={instagramLogo}
-                      alt="Tuple"
-                      width={158}
-                      height={48}
-                    />
-                    </NavLink>
                   </div>
-                  <h2 className="text-center text-lg font-semibold leading-6 text-[#d3d3d3] py-8">
-                    Built by Nathan Parchment
-                  </h2>
                 </div>
 
                 
