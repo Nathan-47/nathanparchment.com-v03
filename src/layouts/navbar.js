@@ -39,7 +39,9 @@ const Navbar = () => {
 
                 <NavLink to="projects" id="nav-line">Projects</NavLink>
 
-                <NavLink to="contact" id="nav-line">Contact</NavLink>
+                {/* <NavLink to="designs" id="nav-line">Designs</NavLink> */}
+
+                {/* <NavLink to="contact" id="nav-line">Contact</NavLink> */}
                 </ul>
                 </div>
                 </nav>
@@ -47,6 +49,8 @@ const Navbar = () => {
                 <main>
                      {/* allows for the nav to be outputted to the page */}
                     <Outlet />
+
+                    {/* When uncommented it will show the social links */}
                     <Footer />
                 </main>
                 </div>
