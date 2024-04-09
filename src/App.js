@@ -5,7 +5,6 @@ import Landing from './pages/landing';
 import Navbar from './layouts/navbar';
 import About from './pages/about.js';
 import Projects from './pages/projects';
-import Contact from './pages/contact';
 import Marvelapi from './pages/marvelapi.js';
 import NotExist from './NotExist.js';
 
@@ -18,7 +17,6 @@ function App() {
       <Route index element={<Landing />} />
       <Route path="about" element={<About/>} />
       <Route path="projects" element={<Projects/>} />
-      <Route path="contact" element={<Contact/>} />
 
       {/* project pages */}
       <Route path="marvelapi" element={<Marvelapi/>} />
