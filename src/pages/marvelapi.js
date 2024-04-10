@@ -31,6 +31,13 @@ useEffect (() => {
 })
   // animate on view hook
 
+
+  //When page is selected window is rendered to the top of page
+  useEffect(() => {
+    setTimeout(() => window.scrollTo(0, localStorage.getItem('position')), 0);
+  }, []);
+
+  
     return (
         <div ref={scope}
         className='width-body'>
