@@ -40,18 +40,20 @@ Nav {
   font-family: $inter;
 }
 .a-link {
-  background: #2cba6c;
+  background: #054820;
+  // old colour - #2cba6c 
   font-weight: 800;
-  color: white;
+  color: $secondary-color;
 }
 
 ::-moz-selection {
   color: $secondary-color;
-  background: #2cba6c;
+  // background: #0F8556;
+  background: #054820;
 }
 ::selection {
   color: $secondary-color;
-  background: #2cba6c;
+  background: #054820;
 }
 .bg-white {
   background-color: transparent !important;
@@ -877,12 +879,16 @@ body {overflow-y: auto;}
 .project-content {width: 90% !important;}
 }
 
+@media screen and (max-width: 850px) {
+  #screenshots {padding: 10px;}
+}
+
 @media screen and (max-width: 768px) {
 .project-content {width: 100% !important;}
 #screenshots {
   margin-top: 50px;
   width: 70%;
-  margin: 20px auto;
+  margin: 20px auto ;
 }
 }
 
