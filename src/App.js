@@ -11,6 +11,7 @@ import NotExist from './NotExist.js';
 
 function App() {
 
+  // Allows a more quicker and easier way of client handling using react-router
   const router = createBrowserRouter(
     createRoutesFromElements(
       <Route path="/" element={<Navbar />}>  
