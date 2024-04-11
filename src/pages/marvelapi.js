@@ -49,7 +49,7 @@ useEffect (() => {
 
               {/* demo button */}
               <div className="button-section">
-            <a href="https://brave-jones-f1193a.netlify.app/" target="_blank" rel="noreferrer"><div className="rounded-md bg-[#d3d3d3] px-8 py-2 m-4 text-#1d1d1d shadow-sm hover:bg-green-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-50" id="demo-btn"
+            <a href="https://brave-jones-f1193a.netlify.app/" target="_blank" rel="noreferrer"><div className="rounded-md bg-[#d3d3d3] px-8 py-2 m-4 text-#1d1d1d shadow-sm hover:bg-green-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-50" id="demo-btn" aria-labelledby="button"
               >View Demo
                 </div>
                 </a>
@@ -64,27 +64,27 @@ useEffect (() => {
                 </div>
             </div>
             <div className="tool-section">
-            <img className="github-logo" src={githubLogo} alt="github"></img>
-      <div id="tool-tags" className="inline-flex items-center rounded-md bg-gray-50 px-2 py-1 text-base font-semibold text-gray-700 ring-1 ring-inset ring-gray-600/10">
+            <img className="github-logo" src={githubLogo} alt="github" tabIndex={0}></img>
+      <div id="tool-tags" tabIndex={0} className="inline-flex items-center rounded-md bg-gray-50 px-2 py-1 text-base font-semibold text-gray-700 ring-1 ring-inset ring-gray-600/10">
         React
       </div>
-      <div id="tool-tags" className="inline-flex items-center rounded-md bg-gray-50 px-2 py-1 text-base font-semibold text-gray-700 ring-1 ring-inset ring-gray-600/10">
+      <div id="tool-tags" tabIndex={0} className="inline-flex items-center rounded-md bg-gray-50 px-2 py-1 text-base font-semibold text-gray-700 ring-1 ring-inset ring-gray-600/10">
         API
       </div>
-      <div id="tool-tags" className="inline-flex items-center rounded-md bg-gray-50 px-2 py-1 text-base font-semibold text-gray-700 ring-1 ring-inset ring-gray-600/10">
+      <div id="tool-tags" tabIndex={0} className="inline-flex items-center rounded-md bg-gray-50 px-2 py-1 text-base font-semibold text-gray-700 ring-1 ring-inset ring-gray-600/10">
         JavaScript
       </div>
-      <div id="tool-tags" className="inline-flex items-center rounded-md bg-gray-50 px-2 py-1 text-base font-semibold text-gray-700 ring-1 ring-inset ring-gray-600/10">
+      <div id="tool-tags" tabIndex={0} className="inline-flex items-center rounded-md bg-gray-50 px-2 py-1 text-base font-semibold text-gray-700 ring-1 ring-inset ring-gray-600/10">
         SCSS
       </div>
             </div>
             </div>
             
             {/* project screenshot section */}
-            <div id="screenshots" className="flex justify-center">
+            <div id="screenshots" tabIndex={0} className="flex justify-center">
               <img src={marvelshot1} width="900px" height="300px" alt="screenshot from marvel project showing the marvel character venom"></img>
             </div>
-            <div id="screenshots" className="flex justify-center">
+            <div id="screenshots" tabIndex={0} className="flex justify-center">
               <img src={marvelshot2} width="900px" height="300px" alt="screenshot from marvel project showing the marvel character venom"></img>
             </div>
             {/* project screenshot section */}

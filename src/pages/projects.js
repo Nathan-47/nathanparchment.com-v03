@@ -8,6 +8,7 @@ import card4 from '../images/clippedit-thumbnail.png';
 
 const Projects = () => {
 
+  
   // animate on view hook
 const [isPresent, safeToRemove] = usePresence()
 const [scope, animate] = useAnimate()
@@ -33,6 +34,7 @@ useEffect (() => {
 })
   // animate on view hook
 
+
     return (
         <div ref={scope}
         className='width-body'>
@@ -45,7 +47,7 @@ useEffect (() => {
 <div className="col">
                     <Link to="/marvelapi"><div className="card">
 
-                                <img className="card-image" src={card2} alt="marvel project"></img>
+                                <img className="card-image" src={card2} alt="marvel project thumbnail" tabIndex={0}></img>
                             
 
                         <div className="card-content">
@@ -61,7 +63,7 @@ useEffect (() => {
 <div className="col">
                     <Link to="/marvelapi"><div className="card">
 
-                                <img className="card-image" src={card3} alt="portfolio project"></img>
+                                <img className="card-image" src={card3} alt="portfolio project" tabIndex={0}></img>
 
                         <div className="card-content">
                             <p id="card-title">Portfolio v.02</p>
@@ -75,7 +77,7 @@ useEffect (() => {
 <div className="col">
                     <Link to="#"><div className="card">
 
-                                <img className="card-image" src={card4} alt="clippedit project"></img>
+                                <img className="card-image" src={card4} alt="clippedit project" tabIndex={0}></img>
 
                         <div className="card-content">
                             <p id="card-title">Clipped It</p>
