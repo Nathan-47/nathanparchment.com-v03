@@ -64,7 +64,7 @@ useEffect (() => {
                 </div>
             </div>
             <div className="tool-section">
-            <img className="github-logo" src={githubLogo} alt="github" tabIndex={0}></img>
+            <a href="https://github.com/Nathan-47/marvel-alias-search"><img className="github-logo" src={githubLogo} alt="github" tabIndex={0}></img></a>
       <div id="tool-tags" tabIndex={0} className="inline-flex items-center rounded-md bg-gray-50 px-2 py-1 text-base font-semibold text-gray-700 ring-1 ring-inset ring-gray-600/10">
         React
       </div>
