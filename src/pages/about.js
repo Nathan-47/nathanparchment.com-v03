@@ -55,7 +55,7 @@ useEffect (() => {
           I’m a web developer currently working at BCUSU, An amazing independent charity, that gives students’ their best experience at University.
       <br /><br />
 
-      The main focus is to build and design accessible, unique and smooth student digital experiences, which I enjoy!
+      My main focus is to build and design accessible, smooth and slick student digital experiences.
       <br /><br />
 
       Away from the desk, I am reading various books, and playing tactical games like Football Manager / God of War and going gym to Powerlift.
