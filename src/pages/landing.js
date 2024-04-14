@@ -7,7 +7,7 @@ const Landing = () => {
       <div className="bg-white">
         <div className="grid grid-cols-1 gap-4 my-20">
           {/* hero section */}
-          <p className="hero-intro">I'm a Coder that is massively passionate about building amazing things using code.</p>
+          <p className="hero-intro">A Brummie that is passionate about building and creating digital magic using code.</p>
 
           <p id="hero-job" className="mt-6 text-lg leading-8 text-gray-300">
           Currently a Web Developer @ <a className="a-link" href="https://www.bcusu.com/">BCUSU</a>
