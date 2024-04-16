@@ -167,6 +167,9 @@ nav .burgerMenu span:nth-child(3) {
   height: 0.2rem;
   width: 30%;
 }
+nav ul {
+  display: inline-flex;
+}
 nav ul.open {
   display: flex;
   background: $primary-color;
@@ -174,7 +177,7 @@ nav ul.open {
 
 
 @media screen and (max-width: 1024px) {
-  .sm\:grid-cols-12 {
+.sm\:grid-cols-12 {
     grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
   }
 .top-\[calc\(100\%-13rem\)\] {
