@@ -34,10 +34,10 @@ const Navbar = () => {
                 onClick={() => setMenuOpen(false)}
                 >
                 {/* <NavLink to="/">Home</NavLink> */}
-                <NavLink to="about" className="nav-line">About
-                </NavLink>
+                <li><NavLink to="about" className="nav-line">About
+                </NavLink></li>
 
-                <NavLink to="projects" id="nav-line">Projects</NavLink>
+                <li><NavLink to="projects" id="nav-line">Projects</NavLink></li>
 
                 {/* <NavLink to="designs" id="nav-line">Designs</NavLink> */}
 
