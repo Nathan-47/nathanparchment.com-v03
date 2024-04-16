@@ -96,11 +96,11 @@ ul a {
 ul a:hover {
     color: #ffffff;
   }
-ul a::before {
+ul li a::before {
     content: "";
     position: absolute;
     display: block;
-    // width: 100%;
+    width: 100%;
     height: 2px;
     bottom: 0;
     left: 0;
