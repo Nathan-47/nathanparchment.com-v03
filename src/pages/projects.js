@@ -2,9 +2,9 @@ import {stagger, useAnimate, usePresence } from "framer-motion";
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
-import card2 from '../images/marvelapi_thumbnail.png';
-import card3 from '../images/portfolio.v02_thumbnail.png';
-import card4 from '../images/clippedit-thumbnail.png';
+import card1 from '../images/marvel/marvelapi_thumbnail.png';
+import card2 from '../images/bifc/bhamimpact_thumbnail.png';
+import card3 from '../images/clippedit/clippedit-thumbnail.png';
 
 const Projects = () => {
 
@@ -47,8 +47,7 @@ useEffect (() => {
 <div className="col">
                     <Link to="/marvelapi"><div className="card">
 
-                                <img className="card-image" src={card2} alt="marvel project thumbnail" tabIndex={0}></img>
-                            
+                                <img className="card-image" src={card1} alt="marvel project thumbnail" tabIndex={0}></img>
 
                         <div className="card-content">
                             <p id="card-title">Marvel Character Picker</p>
@@ -63,11 +62,11 @@ useEffect (() => {
 <div className="col">
                     <Link to="/marvelapi"><div className="card">
 
-                                <img className="card-image" src={card3} alt="portfolio project" tabIndex={0}></img>
+                                <img className="card-image" src={card2} alt="portfolio project" tabIndex={0}></img>
 
                         <div className="card-content">
-                            <p id="card-title">Portfolio v.02</p>
-                            <p>The aim of my portfolio is to display all my projects built over the years whilst being more clearer than my last portfolio for users.</p>
+                            <p id="card-title">Birmingham Impact FC Website v.02</p>
+                            <p>A user friendly website for a local football team that provides access to training locations, team rules, and team history.</p>
                             <br />
                         </div>
                     </div></Link>
@@ -77,11 +76,11 @@ useEffect (() => {
 <div className="col">
                     <Link to="#"><div className="card">
 
-                                <img className="card-image" src={card4} alt="clippedit project" tabIndex={0}></img>
+                                <img className="card-image" src={card3} alt="clippedit project" tabIndex={0}></img>
 
                         <div className="card-content">
-                            <p id="card-title">Clipped It</p>
-                            <p>The main focus of this project was to create a login system that works and alerts or backs users out when input fields are wrongly filled in. </p>
+                            <p id="card-title">Clipped IT</p>
+                            <p>A PHP login system that allows users to sign up and create an account, with their details being stored in a local xampp database for authentication.</p>
                             <br />
                         </div>
                     </div></Link>

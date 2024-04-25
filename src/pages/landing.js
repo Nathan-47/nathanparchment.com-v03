@@ -1,4 +1,4 @@
-import card1 from '../images/marvelapi_thumbnail.png';
+import card1 from '../images/marvel/marvelapi_thumbnail.png';
 import { Link } from 'react-router-dom';
 
 
