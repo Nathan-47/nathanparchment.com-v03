@@ -40,7 +40,7 @@ Nav {
   font-family: $inter;
 }
 .a-link {
-  background: #054820;
+  background: #005B8F;
   // old colour - #2cba6c 
   font-weight: 800;
   color: $secondary-color;
@@ -49,11 +49,12 @@ Nav {
 ::-moz-selection {
   color: $secondary-color;
   // background: #0F8556;
-  background: #054820;
+  background: #005B8F;
 }
 ::selection {
   color: $secondary-color;
-  background: #054820;
+  // dark green - #054820
+  background: #005B8F;
 }
 .bg-white {
   background-color: transparent !important;
@@ -621,9 +622,10 @@ body {overflow-y: auto;}
   transform: translateY(-7px);
   transition: 0.3s;
   opacity: 0.4;
-}
-.card:active {
-  opacity: 0.3;
+  box-shadow: 0px 2px 4px rgba(225, 217, 217, 0.15), 
+  0px 4px 8px rgba(66, 65, 65, 0.15), 
+  0px 8px 16px rgba(0,0,0,0.15), 
+  2px 4px 0px rgba(167, 164, 164, 0.15)  
 }
 .card-image {
   width: 50%;
