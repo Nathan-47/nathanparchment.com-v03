@@ -74,7 +74,7 @@ useEffect (() => {
 {/* end of card */}
 
 <div className="col">
-                    <Link to="#"><div className="card">
+                    <Link to="/clippedit"><div className="card">
 
                                 <img className="card-image" src={card3} alt="clippedit project" tabIndex={0}></img>
 
