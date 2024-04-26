@@ -7,6 +7,7 @@ import About from './pages/about.js';
 import Projects from './pages/projects';
 import Marvelapi from './pages/marvelapi.js';
 import NotExist from './NotExist.js';
+import Clippedit from './pages/clippedit.js';
 
 
 function App() {
@@ -21,7 +22,8 @@ function App() {
 
       {/* project pages */}
       <Route path="marvelapi" element={<Marvelapi/>} />
-      
+      <Route path='clippedit' element={<Clippedit />} />
+
       {/* 404 page link */}
       <Route path="*" element={<NotExist />} />
       </Route>
