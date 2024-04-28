@@ -831,6 +831,7 @@ body {overflow-y: auto;}
 #demo-btn {
   text-align: center;
   margin: 10px auto;
+  margin-top: -2rem;
   font-family: $archivo;
   font-weight: 700;
   font-size: 1.6rem;
@@ -873,6 +874,8 @@ body {overflow-y: auto;}
 
 @media screen and (max-width: 1100px) {
 .project-content {width: 70% !important;}
+.my-8 {
+  margin-top: 1rem !important;}
 }
 
 @media screen and (max-width: 1023px) {
@@ -898,7 +901,7 @@ body {overflow-y: auto;}
 
 @media screen and (max-width: 600px) {
   .project-content {width: 100%;}
-  #screenshots {width: 80%;}
+  #screenshots {width: 100%;}
 }
 
 @media screen and (max-width: 500px) {
