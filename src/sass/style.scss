@@ -902,7 +902,7 @@ body {overflow-y: auto;}
 @media screen and (max-width: 600px) {
   .project-content {width: 100%;}
   #screenshots {width: 100%;}
-  #demo-btn {width: 100%;}
+  #demo-btn {width: 100% !important;}
 }
 
 @media screen and (max-width: 500px) {
