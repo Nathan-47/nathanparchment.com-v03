@@ -60,9 +60,9 @@ useEffect (() => {
 
 
 <div className="col">
-                    <Link to="/marvelapi"><div className="card">
+                    <Link to="/impact"><div className="card">
 
-                                <img className="card-image" src={card2} alt="portfolio project" tabIndex={0}></img>
+                                <img className="card-image" src={card2} alt="birmingham impact fc project" tabIndex={0}></img>
 
                         <div className="card-content">
                             <p id="card-title">Birmingham Impact FC Website v.02</p>
