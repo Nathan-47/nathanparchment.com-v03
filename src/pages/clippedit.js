@@ -72,15 +72,15 @@ useEffect (() => {
             
             {/* project screenshot section */}
             <div id="screenshots" tabIndex={0} className="flex justify-center">
-              <video src={clipvid1} type="video/mp4" width="900px" height="300px" controls="controls" autoplay="false"></ video>
+              <video src={clipvid1} type="video/mp4" width="900px" height="300px" controls="controls"></ video>
             </div>
 
             <div id="screenshots" tabIndex={0} className="flex justify-center">
-            <video src={clipvid2} type="video/mp4" width="900px" height="300px" controls="controls" autoplay="false"></ video>
+            <video src={clipvid2} type="video/mp4" width="900px" height="300px" controls="controls"></ video>
             </div>
 
             <div id="screenshots" tabIndex={0} className="flex justify-center">
-            <video src={clipvid3} type="video/mp4" width="900px" height="300px" controls="controls" autoplay="false"></ video>
+            <video src={clipvid3} type="video/mp4" width="900px" height="300px" controls="controls"></ video>
             </div>
             {/* project screenshot section */}
             <br />
