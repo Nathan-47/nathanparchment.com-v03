@@ -783,6 +783,7 @@ body {overflow-y: auto;}
 .card-image {
   width: 100%;
   padding: 10px;
+  border-radius: 25px;
 }
 .card-content {
   margin-top: 5px;
@@ -853,6 +854,14 @@ body {overflow-y: auto;}
 }
 #screenshots {
   margin-top: 50px;
+}
+.screenshot-captions {
+  color: $secondary-color;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  text-align: center;
+  font-style: italic;
+
 }
 
 @media screen and (max-width: 1740px) {
