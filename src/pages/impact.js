@@ -50,7 +50,7 @@ useEffect (() => {
 
                               {/* demo button */}
               <div className="button-section">
-            <a href="https://grand-cocada-c0d504.netlify.app/" target="_blank" rel="noreferrer"><div className="rounded-md bg-[#d3d3d3] px-8 py-2 m-4 text-#1d1d1d shadow-sm hover:bg-green-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-50" id="demo-btn" aria-labelledby="button"
+            <a href="https://b-impactfc.netlify.app" target="_blank" rel="noreferrer"><div className="rounded-md bg-[#d3d3d3] px-8 py-2 m-4 text-#1d1d1d shadow-sm hover:bg-green-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-50" id="demo-btn" aria-labelledby="button"
               >View Demo
                 </div>
                 </a>
@@ -81,15 +81,21 @@ useEffect (() => {
             
             {/* project screenshot section */}
             <div id="screenshots" tabIndex={0} className="flex justify-center">
+              <a href={impactshot1}>
               <img src={impactshot1} width="900px" height="300px" alt="screenshot from marvel project showing the marvel character venom"></img>
+              </a>
             </div>
 
             <div id="screenshots" tabIndex={0} className="flex justify-center">
+            <a href={impactshot2}>
             <img src={impactshot2} width="900px" height="300px" alt="screenshot from marvel project showing the marvel character venom"></img>
+            </a>
             </div>
 
             <div id="screenshots" tabIndex={0} className="flex justify-center">
+            <a href={impactshot3}>
             <img src={impactshot3} width="900px" height="300px" alt="screenshot from marvel project showing the marvel character venom"></img>
+            </a>
             </div>
             {/* project screenshot section */}
             <br />

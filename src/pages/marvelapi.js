@@ -49,7 +49,7 @@ useEffect (() => {
 
               {/* demo button */}
               <div className="button-section">
-            <a href="https://brave-jones-f1193a.netlify.app/" target="_blank" rel="noreferrer"><div className="rounded-md bg-[#d3d3d3] px-8 py-2 m-4 text-#1d1d1d shadow-sm hover:bg-green-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-50" id="demo-btn" aria-labelledby="button"
+            <a href="https://marvelalias.netlify.app" target="_blank" rel="noreferrer"><div className="rounded-md bg-[#d3d3d3] px-8 py-2 m-4 text-#1d1d1d shadow-sm hover:bg-green-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-50" id="demo-btn" aria-labelledby="button"
               >View Demo
                 </div>
                 </a>
@@ -57,9 +57,10 @@ useEffect (() => {
                 {/* demo button */}
 
                 <div className="col-sm-6">
-                    <p className="project-content my-8">This project allows users to search for a marvel character within the marvel database via Marvel.com and return the character back. The character will be displayed showing their name, bio and image via the API parameters whilst being complemented with minimal styling.
+                    <p className="project-content my-8"> 
+                    This project allows users to search for a marvel character within the marvel database via Marvel.com and return the character back. The character will be displayed showing their name, bio and image via the API parameters whilst being complemented with minimal styling.
                         <br /><br />
-     I created this to get an understanding of how react works and get an insight to using hooks and event handlers to return arrays via marvel API.
+                        I created this to get an understanding of how react works and get an insight to using hooks and event handlers to return arrays via marvel API.
                         </p>
                 </div>
             </div>
@@ -83,10 +84,14 @@ useEffect (() => {
             
             {/* project screenshot section */}
             <div id="screenshots" tabIndex={0} className="flex justify-center">
+              <a href={marvelshot1} target="_blank">
               <img src={marvelshot1} width="900px" height="300px" alt="screenshot from marvel project showing the marvel character venom"></img>
+              </a>
             </div>
             <div id="screenshots" tabIndex={0} className="flex justify-center">
+            <a href={marvelshot2} target="_blank">
               <img src={marvelshot2} width="900px" height="300px" alt="screenshot from marvel project showing the marvel character venom"></img>
+              </a>
             </div>
             {/* project screenshot section */}
             <br />
