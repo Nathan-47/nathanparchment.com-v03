@@ -57,9 +57,9 @@ useEffect (() => {
                 {/* demo button */}
 
                 <div className="col-sm-6">
-                    <p className="project-content my-8">This project is a fully working and responsive football club website made for the Birmingham Impact Football Club that play in various leagues and tournaments across the Central Warwickshire league footballing association. 
+                    <p className="project-content my-8">This project allows users to search for a marvel character within the marvel database via Marvel.com and return the character back. The character will be displayed showing their name, bio and image via the API parameters whilst being complemented with minimal styling.
                         <br /><br />
-                        As stated, before the main focus was to create a site that is usable and interactive on all devices as the old site was not. Nowadays mobile phones are being used more and more as they are more accessible thus the focus of attention being on the responsiveness of mobile /tablet devices and user experience.
+     I created this to get an understanding of how react works and get an insight to using hooks and event handlers to return arrays via marvel API.
                         </p>
                 </div>
             </div>
