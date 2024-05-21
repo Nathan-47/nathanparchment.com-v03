@@ -50,7 +50,7 @@ useEffect (() => {
                                 <img className="card-image" src={card1} alt="marvel project thumbnail" tabIndex={0}></img>
 
                         <div className="card-content">
-                            <p id="card-title">Marvel Character Picker</p>
+                            <p id="card-title">Marvel Alias Search</p>
                             <p>A Marvel character search filter using API to fetch an array of characters with a 1v1 RPG style card game also. </p>
                             <br />
                         </div>

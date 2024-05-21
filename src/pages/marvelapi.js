@@ -42,7 +42,7 @@ useEffect (() => {
         <div ref={scope}
         className='width-body'>
             <div className='project-heading-default'>
-              <p>Marvel Selector</p>
+              <p>Marvel Alias Search</p>
             </div>
             <div className="project-body">
             <div className="grid grid-cols-1 gap-12">
