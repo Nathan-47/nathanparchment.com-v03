@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import card1 from '../images/marvel/marvelapi_thumbnail.png';
 import card2 from '../images/bifc/bhamimpact_thumbnail.png';
 import card3 from '../images/clippedit/clippedit-thumbnail.png';
+import card4 from '../images/battlejs/battlejs_thumbnail.png';
 
 const Projects = () => {
 
@@ -44,6 +45,7 @@ useEffect (() => {
 
 <div className="card-body">
 
+
 <div className="col">
                     <Link to="/marvelapi"><div className="card">
 
@@ -60,18 +62,19 @@ useEffect (() => {
 
 
 <div className="col">
-                    <Link to="/impact"><div className="card">
+                    <Link to="/battlejs"><div className="card">
 
-                                <img className="card-image" src={card2} alt="birmingham impact fc project" tabIndex={0}></img>
+                                <img className="card-image" src={card4} alt="Marvel Battle JS project" tabIndex={0}></img>
 
                         <div className="card-content">
-                            <p id="card-title">Birmingham Impact FC Website v.02</p>
-                            <p>A user friendly website for a local football team that provides access to training locations, team rules, and team history.</p>
+                            <p id="card-title">Marvel Battle JS</p>
+                            <p>A click battle js game that lets users play as Marvel characters and battle it out against their strongest foes.</p>
                             <br />
                         </div>
                     </div></Link>
                 </div>
 {/* end of card */}
+
 
 <div className="col">
                     <Link to="/clippedit"><div className="card">
@@ -86,6 +89,21 @@ useEffect (() => {
                     </div></Link>
                 </div> 
                 
+{/* end of card */}
+
+
+<div className="col">
+                    <Link to="/impact"><div className="card">
+
+                                <img className="card-image" src={card2} alt="birmingham impact fc project" tabIndex={0}></img>
+
+                        <div className="card-content">
+                            <p id="card-title">Birmingham Impact FC Website v.02</p>
+                            <p>A user friendly website for a local football team that provides access to training locations, team rules, and team history.</p>
+                            <br />
+                        </div>
+                    </div></Link>
+                </div>
 {/* end of card */}
             <br />
             <br />
