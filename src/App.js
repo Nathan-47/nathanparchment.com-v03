@@ -9,6 +9,7 @@ import Marvelapi from './pages/marvelapi.js';
 import NotExist from './NotExist.js';
 import Clippedit from './pages/clippedit.js';
 import Impact from './pages/impact.js';
+import Battlejs from './pages/battle.js';
 
 
 function App() {
@@ -25,6 +26,8 @@ function App() {
       <Route path="marvelapi" element={<Marvelapi/>} />
       <Route path="impact" element={<Impact/>} />
       <Route path='clippedit' element={<Clippedit />} />
+      <Route path='battlejs' element={<Battlejs />} />
+
 
       {/* 404 page link */}
       <Route path="*" element={<NotExist />} />
