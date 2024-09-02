@@ -84,7 +84,7 @@ useEffect (() => {
             
             {/* project screenshot section */}
             <div id="screenshots" tabIndex={0} className="flex justify-center">
-              <a href={marvelshot1}><img src={marvelshot1} width="900px" height="300px" alt="screenshot from marvel project showing the marvel character venom"></img>
+              <a href="../images/marvel/marvel_screenshot1.png"><img src={marvelshot1} width="900px" height="300px" alt="screenshot from marvel project showing the marvel character venom"></img>
                  </a>
             </div>
             <div id="screenshots" tabIndex={0} className="flex justify-center">
