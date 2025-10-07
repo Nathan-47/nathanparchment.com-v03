@@ -1,20 +1,19 @@
-# Nathanparchment.com v.04
+# Nathanparchment.com v.03 
 
-This is the fourth iteration of my portfolio that is accessibile friendly and easy to navigate for all users.
+This is the third iteration of my portfolio. Using react-dom-router, I have created a site that runs smoothly with greater response time compared to my other portfolios. 
 
 
-### Notice
-Blog page will be developed in coming weeks.
+## Improvements for future features 
+Burger menu icon on smaller devices doesn’t read and when clicked sometimes goes to homepage instead of menu. 
 
-<br />
+<br /> 
 
-## Deployment
-### PROJECT INSTALLATION
- * In this project directory you will need `node.js` and `npm` installed globally on your system.
- 
-1.	To **install** project dependencies by running `npm install`
-2.	To run test `npm test`
-3.	To start the server `npm run dev`
-4.	Once server is started view the app in ` http://localhost:5173`
+## Deployment 
+### PROJECT INSTALLATION 
+In this project directory you will need node and npm installed globally on your system. 
+1. To **install** npm and node then in terminal run npm install
+2. To run test suite npm test
+3. To start the server npm start
+4. Once server is started view the app in <http://localhost:3000/>
 
 <br />
